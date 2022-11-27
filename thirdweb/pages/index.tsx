@@ -90,6 +90,17 @@ const Home: NextPage = () => {
       </div>
     );
   }
+    // DAO ダッシュボード画面を表示
+    else if (hasClaimedNFT){
+      return (
+        <div className={styles.container}>
+        <main className={styles.main}>
+          <h1 className={styles.title}>IBC DAO Member Page</h1>
+          <p>Congratulations on being a member</p>
+        </main>
+      </div>
+      );
+    }
   // ウォレットと接続されていたら Mint ボタンを表示
   else {
     return (
