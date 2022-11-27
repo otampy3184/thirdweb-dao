@@ -10,7 +10,7 @@ import { readFileSync } from "fs";
       // コレクションの説明（同じく書き換えてください）
       description: "A DAO for IBC",
       // コレクションのアイコンとなる画像
-      image: readFileSync("src/scripts/assets/ibc.png"),
+      image: readFileSync("src/scripts/assets/IBCCollection.png"),
       // NFT の販売による収益を受け取るアドレスを設定
       // ドロップに課金をしたい場合は、ここに自分のウォレットアドレスを設定します
       // 今回は課金設定はないので、0x0 のアドレスで渡す

@@ -1,7 +1,7 @@
 import sdk from "./1-initialize-sdk.js";
 import { readFileSync } from "fs";
 
-const editionDrop = sdk.getContract("0xfcAa6fA75B8727870e9647e46138d776FeD8cB0f", "edition-drop");
+const editionDrop = sdk.getContract("0x09d56c9bFFA4e5984C5845DE75017879E717Be82", "edition-drop");
 
 (async () => {
   try {
@@ -10,7 +10,7 @@ const editionDrop = sdk.getContract("0xfcAa6fA75B8727870e9647e46138d776FeD8cB0f"
         name: "IBC Member's Limited Area",
         description:
           "Ridgelinez IBC専用の限定アイテムです",
-        image: readFileSync("src/scripts/assets/NFT.png"),
+        image: readFileSync("src/scripts/assets/IBCCard.png"),
       },
     ]);
     console.log("✅ Successfully created a new NFT in the drop!");
