@@ -196,6 +196,22 @@ const Home: NextPage = () => {
           <div className={styles.connect}>
             <ConnectWallet />
           </div>
+          <h2>接続するまでの手順</h2>
+          <div>
+            1. <a href="https://metamask.io/download/">ここ</a>からMetamaskをブラウザにインストールする
+          </div>
+          <div>
+            2. <a href="https://qiita.com/ItodaiCrypto/items/563214a28239c6f9cf0e">このサイト</a>を参考にMetamaskにGoerliネットワークに追加する
+          </div>
+          <div>
+            3. <a href="https://goerlifaucet.com/">このサイト</a>にアクセスし、アドレス入力欄にEthereumのアドレスを貼り付けてリクエストを送ってGoerliETHを手に入れる
+          </div>
+          <div>
+            4. ConnectWalletを押してMetamaskを選択
+          </div>
+          <div>
+            5. Metamaskが立ち上がってアクセス許可を行う
+          </div>
         </main>
       </div>
     );
