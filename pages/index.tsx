@@ -191,7 +191,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.title}>
-            Welcome to Tokyo Sauna Collective !!
+            Welcome to IBC DAO !!
           </h1>
           <div className={styles.connect}>
             <ConnectWallet />
@@ -220,11 +220,11 @@ const Home: NextPage = () => {
     return (
       <div className={styles.container}>
         <main className={styles.main}>
-        <h1 className={styles.title}>🍪DAO Member Page</h1>
+        <h1 className={styles.title}>🍪IBC Member Page</h1>
         <p>Congratulations on being a member</p>
           <div>
             <div>
-              <h2>■ Member List</h2>
+              <h2>🧑🏻‍💻🧑🏻‍💻🧑🏻‍💻 Member List</h2>
               <table className="card">
                 <thead>
                   <tr>
@@ -245,7 +245,7 @@ const Home: NextPage = () => {
               </table>
             </div>
             <div>
-              <h2>■ Active Proposals</h2>
+              <h2>💾 Active Proposals</h2>
               <form
                 onSubmit={async (e) => {
                   e.preventDefault();
